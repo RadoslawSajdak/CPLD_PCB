@@ -1,4 +1,4 @@
-20391295312210377
+20392956158103480
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52118,6 +52118,13 @@ ECS2033
 ECS2033500BNTR3
 ECS-2033-500-BN-TR3-1
 Crystal or Oscillator
+0
+4
+4
+ECS_3225
+OSC_ECS-TXO-3225-250-TR
+
+
 0
 4
 4
