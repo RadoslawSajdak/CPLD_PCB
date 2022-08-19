@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -119,7 +119,8 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -381,7 +382,10 @@
         "nets": [
           "+3.3V",
           "+5V",
-          "GND"
+          "/STATUS_LED",
+          "GND",
+          "Net-(D1-Pad1)",
+          "Net-(D2-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -416,8 +420,6 @@
           "/DI9",
           "/DO0",
           "/DO1",
-          "/DO10",
-          "/DO11{slash}TDO",
           "/DO12",
           "/DO2",
           "/DO3",
@@ -427,16 +429,12 @@
           "/DO7",
           "/DO8",
           "/DO9",
-          "/POWER_LED",
-          "/STATUS_LED",
           "/SW_B0",
           "/SW_B1",
           "/SW_B2",
           "/SW_B3",
           "Net-(C2-Pad1)",
           "Net-(C4-Pad1)",
-          "Net-(D1-Pad1)",
-          "Net-(D2-Pad1)",
           "Net-(IC1-Pad3)",
           "Net-(IC2-Pad37)",
           "Net-(J4-Pad6)",
